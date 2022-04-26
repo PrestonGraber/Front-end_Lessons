@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    Background-color: ivory;
+    border-bottom: 4px inset goldenrod;
+    padding-bottom: 5px;
+}
+body{
+    text-align: center;
+    background-color: darkslateblue;
+    color: darkslateblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+table{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 5px;
+    
+}
+tr, td,th{
+    font-size: 25px;
+    border: 4px inset goldenrod;
+    background-color: cornsilk;
+    flex: 1;
+    padding: 20px;
+    font-style: sans-serif;
+
+}
+footer{
+    background-color: ivory;
+    border-top: 4px solid goldenrod;
+    position: fixed;
+    left: 0 ;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    
+}
