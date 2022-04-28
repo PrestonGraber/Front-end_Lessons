@@ -22,7 +22,7 @@
 }
 nav{
     float: right;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 100px;
     padding: 20px 0;
    
@@ -60,6 +60,8 @@ nav ul li a:hover::after{
 } 
 span{
     color: rgb(204, 1, 1);
+    cursor:default;
+    
 }
 
 .col_1{
