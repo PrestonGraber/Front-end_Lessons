@@ -314,10 +314,10 @@ span{
     }
    
 }
-@media screen and (min-width: 1200px) and (max-width: 2200px){
+@media only screen and (min-width: 1200px) and (max-width: 2200px){
 .col1 h1{
-    font-size: 90px;
-    color: black;
+    position: absolute;
+    top: 2%;
 }
 }
 
