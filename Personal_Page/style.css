@@ -470,6 +470,26 @@ h2{
     background-size: cover;
     background-image: linear-gradient(rgb(16, 15, 15), rgba(0, 0, 0, 0.286),rgba(12, 130, 151, 0.392)),url("photos/personal_background.jpg");
 }
+.project-header{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin: 10px 5px;
+}
+
+.project-header h1{
+    color: white;
+    font-size: 40px;
+    line-height: 45px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: 'Libre Bodoni', serif;
+    text-shadow: 2px 2px rgb(0, 121, 117);
+
+}
 .projects-container{
     position: absolute;
     display: grid;
@@ -478,9 +498,10 @@ h2{
     gap: 60px 20px;
     width: 60%;
     height: 100vh;
-    top: 10%;
+    top: 25%;
     left: 20%;
 }
+
 .projects{
     
     width: 175px;
@@ -521,7 +542,7 @@ h2{
     background-color:rgba(12, 130, 151, 0.392);
     border: 2px solid rgb(0, 121, 117);
     text-decoration: none;
-    transition: 1s ease-in-out;
+    transition: 1s ease-in;
 }
 .buttonContainer a:hover{
     background-color: white;
