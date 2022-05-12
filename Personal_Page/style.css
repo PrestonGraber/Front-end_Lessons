@@ -5,6 +5,7 @@
     font-family: 'Open Sans', serif;
   
 }
+
 .container{
     width: 100%;
     height: 100vh;
@@ -73,16 +74,15 @@ span{
 .col_1{
     position: absolute;
     top: 25%;
+    left: 20%;
     width: 30%;
     height: 70%;
-    margin-left: 175px;
-    margin-top: -25px;
     cursor:default;
     
 }
 .col_1 h1{
     color: white;
-    font-size: 60px;
+    font-size: 80px;
     line-height: 70px;
     margin-bottom: 10px;
     font-family: 'Libre Bodoni', serif;
@@ -101,7 +101,9 @@ span{
     margin-bottom: 20px;
 }
 .about_button{
-    margin-left: 20px;
+   position: fixed;
+   top: 70%;
+   left: 25%;
     padding: 10px 15px;
     font-size: 15px;
     border-radius: 10px 0px 10px 0px;
@@ -128,26 +130,33 @@ span{
 .skill h1{
     margin-top: 10px;
     text-shadow: 1px 1px rgb(0, 121, 117);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: white;
     font-size: 35px;
     letter-spacing: 5px;
     text-align: center;
     font-family: 'Water Brush', cursive;
     border-bottom: 2px solid white;
+    margin-left: 20px;
 
 }
 .skill-icons{
     color:white;
     display:flex;
     justify-content:space-between;
+    
 }
-.JS{
-    margin-left: 15px;
+.skill-box img{
+    width: 50px;
+    height: 50px;
 }
 .skill-title h3{
     font-size: 20px;
+    margin: 5px 5px;
+    text-align: center;
+    text-shadow: 1px 1px black;
 }
+
 .img img{
     width: 40px;
     justify-content: center;
@@ -208,6 +217,17 @@ span{
     box-shadow: 5px 5px 50px rgba(18, 194, 185, 0.892);
   
 }
+@media screen and (min-width: 1420px) and (max-width: 2000px){
+    .col_1 h1{
+        line-height: 100px;
+        font-size: 100px;
+    }
+    .about_button{
+        position: absolute;
+        top: 55%;
+    }
+
+}
 
 @media screen and (min-width: 620px) and (max-width: 980px){
     .col_1{
@@ -261,11 +281,12 @@ span{
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 540px){
+@media screen and (min-width: 310px) and (max-width: 620px){
     .col_1{
         position: absolute;
+        left: 15%;
+        width: 80%;
         top: 15%;
-        left: 35%;
         height: 25%;
         margin-left: 0;
         line-height: 25px;
@@ -281,14 +302,15 @@ span{
          top: 67%;
          position: absolute;
          width: 60%;
-         margin-top: 10px;
+         margin-top: 20px;
        
     }
+    
     .about_button{
         margin-top: 10px;
         position: absolute;
-        top: 90%;
-        left: 20%;
+        bottom: 20%;
+        left: 40%;
     }
   nav ul{
     display: none;
@@ -303,11 +325,11 @@ span{
         
     }
     .col_3 img{
-        margin: 10px 0px;
+        margin: 5px 0px;
         top:38%;
-        right: 25%;
-        width: 200px;
-        height: 200px;
+        right: 20%;
+        width: 225px;
+        height: 250px;
     }
     .col_2{
         right:1%;
@@ -380,7 +402,7 @@ input:valid~label,
 textarea:focus~label,
 textarea:valid~label
 {
-    top: -35px;
+    top: -30px;
     font-size: 14px;
 }
 .row{
@@ -438,4 +460,33 @@ h2{
     font-family: 'Water Brush', cursive;
     Font-size: 35px;
     
+}
+/*Project.Html*/
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(232, 232, 232);
+    background-size: cover;
+    background-image: linear-gradient(rgb(16, 15, 15), rgba(0, 0, 0, 0.286),rgba(12, 130, 151, 0.392)),url("photos/personal_background.jpg");
+}
+.projects-container{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 40%;
+    height: 40vh;
+    top: 20%;
+    left: 30%;
+    
+}
+.projects{
+    width: 175px;
+    height: 250px;
+}
+.project1{
+    margin-top: -25px;
+    width: 175px;
+    height: 250px;
 }
