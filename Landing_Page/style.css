@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 75px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  cursor: default;
+}
+
+.nav img {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  margin-top: -20px;
+  width: 125px;
+  height: 125px;
+}
+
+.nav .anchors {
+  width: 50%;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.nav .anchors a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0px 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.nav .anchors a:hover {
+  border-bottom: 4px solid #31aba6;
+}
+
+.nav .sign-up {
+  font-size: 15px;
+  position: absolute;
+  top: 30%;
+  right: 2%;
+}
+
+.nav .sign-up a {
+  color: #31aba6;
+  font-size: 25px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("photos/background-landing.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("photos/background-landing.jpg");
+  background-blend-mode: darken;
+}
+
+.content .words {
+  position: absolute;
+  top: 30%;
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+}
+
+.content .words h1 {
+  color: #31aba6;
+  text-shadow: 0px 0px 5px black;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.content .words p {
+  font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px #31aba6;
+  margin-bottom: 50px;
+}
+
+.content .words a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: #31aba6;
+  border: 1px solid #31aba6;
+  padding: 5px 30px;
+  -webkit-box-shadow: 0px 0px 5px white;
+          box-shadow: 0px 0px 5px white;
+}
+/*# sourceMappingURL=style.css.map */
