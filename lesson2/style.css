@@ -1,43 +1,32 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-.head{
-    Background-color: ivory;
-    border-bottom: 4px inset goldenrod;
-    padding-bottom: 5px;
-}
-body{
-    text-align: center;
-    background-color: darkslateblue;
-    color: darkslateblue;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-
-table{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top: 5px;
-    
-}
-tr, td,th{
-    font-size: 25px;
-    border: 4px inset goldenrod;
-    background-color: cornsilk;
-    flex: 1;
-    padding: 20px;
-    font-style: sans-serif;
-
-}
-footer{
-    background-color: ivory;
-    border-top: 4px solid goldenrod;
-    position: fixed;
-    left: 0 ;
-    bottom:0;
-    text-align: center;
+.container{
     width: 100%;
-    padding: 5px;
-    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 12, 10);
+    align-items: center;
+}
+table{
+    cursor: pointer;
+    border-spacing: 0;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(12, 30, 18, 0.871);
+}
+table td{
+    font-size: 25px;
+    text-align: center;
+}
+table tr:hover{
+    background-color: rgba(7, 69, 150, 0.416);
+}
+.black{
+    background-color: rgb(7, 11, 8);
 }
