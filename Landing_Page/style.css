@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  color: black;
   font-family: 'Raleway', sans-serif;
+  color: black;
 }
 
 .nav {
@@ -28,9 +28,9 @@
   position: absolute;
   top: 0%;
   left: 2%;
-  margin-top: -20px;
   width: 125px;
   height: 125px;
+  margin-top: -20px;
 }
 
 .nav .anchors {
@@ -43,13 +43,13 @@
   text-decoration: none;
   font-size: 20px;
   margin: 0px 5px;
+  cursor: pointer;
   -webkit-transition: .5s;
   transition: .5s;
-  cursor: pointer;
 }
 
 .nav .anchors a:hover {
-  border-bottom: 4px solid #31aba6;
+  border-bottom: 4px solid #078f5d;
 }
 
 .nav .sign-up {
@@ -60,7 +60,8 @@
 }
 
 .nav .sign-up a {
-  color: #31aba6;
+  text-decoration: none;
+  color: #078f5d;
   font-size: 25px;
 }
 
@@ -77,10 +78,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-size: cover;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("photos/background-landing.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("photos/background-landing.jpg");
-  background-blend-mode: darken;
+  background-size: cover;
 }
 
 .content .words {
@@ -92,7 +92,7 @@
 }
 
 .content .words h1 {
-  color: #31aba6;
+  color: #078f5d;
   text-shadow: 0px 0px 5px black;
   font-size: 60px;
   margin-bottom: 10px;
@@ -101,7 +101,7 @@
 .content .words p {
   font-size: 24px;
   color: white;
-  text-shadow: 1px 1px #31aba6;
+  text-shadow: 1px 1px #078f5d;
   margin-bottom: 50px;
 }
 
@@ -109,8 +109,8 @@
   text-decoration: none;
   font-size: 20px;
   color: white;
-  background-color: #31aba6;
-  border: 1px solid #31aba6;
+  background-color: #078f5d;
+  border: 1px solid #078f5d;
   padding: 5px 30px;
   -webkit-box-shadow: 0px 0px 5px white;
           box-shadow: 0px 0px 5px white;

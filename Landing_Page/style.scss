@@ -1,11 +1,11 @@
- $primColor: #31aba6;
- *{
-     margin: 0;
-     padding: 0;
-     color: black;
-     font-family: 'Raleway', sans-serif;
- }
- .nav{
+$primaryCol: rgb(7, 143, 93);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+.nav{
     width: 100%;
     height: 75px;
     position: absolute;
@@ -16,80 +16,82 @@
     background-color: white;
     z-index: 2;
     cursor: default;
-   
+
     img{
         position: absolute;
         top: 0%;
         left: 2%;
-        margin-top: -20px;
         width: 125px;
         height: 125px;
+        margin-top: -20px;
     }
     .anchors{
-       width: 50%;
-       text-align: center;
-       margin-right: 20px;
-      
-       a{
-           text-decoration: none;
-           font-size: 20px;
-           margin: 0px 5px;
-           transition: .5s;
-           cursor: pointer;
-       }
-       a:hover{
-           border-bottom: 4px solid $primColor;
-       }
-        
+        width: 50%;
+        text-align: center;
+        margin-right: 20px;
+
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0px 5px;
+            cursor: pointer;
+            transition: .5s;
+        }
+        a:hover{
+            border-bottom: 4px solid $primaryCol;
+        }
     }
     .sign-up{
         font-size: 15px;
         position: absolute;
         top: 30%;
         right: 2%;
+
         a{
-            color: $primColor;
+            text-decoration: none;
+            color: $primaryCol;
             font-size: 25px;
         }
+        
     }
- }
- .content{
-     position: absolute;
-     width: 100%;
-     height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     background-size: cover;
-     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("photos/background-landing.jpg");
-     background-blend-mode:darken;
-     .words{
+}
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("photos/background-landing.jpg");
+    background-size:cover;
+    
+    .words{
         position: absolute;
         top: 30%;
         width: 50%;
         height: 50vh;
         text-align: center;
 
-     h1{
-        color: $primColor;
-        text-shadow: 0px 0px 5px black;
-        font-size: 60px;
-        margin-bottom: 10px;
-     }
-     p{
-         font-size: 24px;
-         color: white;
-         text-shadow: 1px 1px $primColor;
-         margin-bottom: 50px;
-     }
-     a{
-         text-decoration: none;
-         font-size: 20px;
-         color: white;
-         background-color: $primColor;
-         border: 1px solid $primColor;
-         padding: 5px 30px;
-         box-shadow: 0px 0px 5px white;
-     }
+        h1{
+            color: $primaryCol;
+            text-shadow: 0px 0px 5px black;
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 24px; 
+            color: white;
+            text-shadow: 1px 1px $primaryCol;
+            margin-bottom: 50px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            background-color: $primaryCol;
+            border: 1px solid $primaryCol;
+            padding: 5px 30px;
+            box-shadow: 0px 0px 5px white;
+        }
     }
- }
+}
